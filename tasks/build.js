@@ -40,6 +40,14 @@ module.exports = function(grunt) {
         dest: "build/",
         cwd: "bower_components/roboto-fontface"
       },
+      sourceSansPro: {
+        src: [ "fonts/source-sans-pro/*",
+               "css/source-sans-pro.min.css"
+             ],
+        expand: true,
+        dest: "build/",
+        cwd: "bower_components/source-sans-pro"
+      },
       ionicons: {
         src: [ "fonts/*",
                "css/ionicons.min.css"
